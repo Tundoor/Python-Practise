@@ -70,3 +70,19 @@ for char in text.lower():
 
 # a += b
 # The addition assignment operator enables you to add a value to a variable and then assign the result to that variable.
+
+
+# Comparison operators allow you to compare two objects based on their values. You can use a comparison operator by placing it between the objects you want to compare. They return a Boolean value — namely True or False — depending on the truthfulness of the expression.
+
+# Python has the following comparison operators:
+
+# Operator	Meaning
+# ==	Equal
+# !=	Not equal
+# >	Greater than
+# <	Less than
+# >=	Greater than or equal to
+# <=	Less than or equal to
+
+if x != 0:
+    print(x) # This is the format of an if statement
