@@ -8,5 +8,24 @@
 #    2: Ask the user to guess the number.
 #    3: Provide feedback on whether the guess is too high, too low, or correct.
 
-user_input = input("Guess a number between 0 and 100")
-print(user_input)
+import random
+
+user_input = int(input("Guess A Random Number 1 to 100"))
+randomNum = random.randint(0, 100)
+
+if randomNum > user_input:
+    print(f"{user_input} was too small. Try Again")
+
+elif randomNum < user_input: 
+    print(f"{user_input} is too great. Try Again")
+ 
+else: 
+    print("CORRECT!!")
+
+    
+
+
+# my current dilemna is that it guesses the number but only does it once rather than multiple times with every if statement...
+# How I'm thinking of fixing it is creating a function that does the random guessing of the number and allows a person to try over.
+# Biggest issue right now... im not sure if python has rules on functions being in a certain scope. 
+# Another issue is now it wont have a conditional.
